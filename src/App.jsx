@@ -29,7 +29,7 @@ const Card = ({image})=>{
   return(
     <>
       <div className='Card'>
-        <img src={image} height={'200'} width={'350'}/>
+        <img style={{borderTopLeftRadius:'10px',borderTopRightRadius:'10px'}} src={image} height={'200'} width={'350'}/>
         <div style={{padding:'10px'}}>
         <h3>$123,456</h3>
         <p>2 bds | 2ba | 1,088 sqft | Active</p>
