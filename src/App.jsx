@@ -32,7 +32,7 @@ const Card = ({image})=>{
         <img style={{borderTopLeftRadius:'10px',borderTopRightRadius:'10px'}} src={image} height={'200'} width={'350'}/>
         <div style={{padding:'10px'}}>
         <h3>$123,456</h3>
-        <p>2 bds | 2ba | 1,088 sqft | Active</p>
+        <p><span style={{fontWeight:'700'}}>2</span> bds | <span style={{fontWeight:'700'}}>2</span>ba | <span style={{fontWeight:'700'}}>1,088</span> sqft | Active</p>
         <p >9210 B Roosevelt Way NE , Seattle, Wa, 98115</p>
         <span style={{fontSize:'12px'}}>9210 B Roosevelt Way NE , Seattle, Wa, 98115</span>
         </div>
