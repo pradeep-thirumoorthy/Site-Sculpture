@@ -67,6 +67,8 @@ input:focus-visible
 .Coursal
 {
   overflow-x: scroll;
+  scrollbar-width: 0px;
+  scrollbar-color: transparent;
   overflow-y: none;
   display: flex;
   gap: 40px;
